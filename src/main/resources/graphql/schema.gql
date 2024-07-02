@@ -1,0 +1,39 @@
+type Query {
+    "Retorna os dados do endereço, caso ele exista."
+    findAddressInfo(cep: String) : Address
+}
+
+type Address {
+    "O CEP do endereço, exemplo: 00000-000"
+    cep: String,
+
+    "O logradouro do endereço"
+    logradouro: String,
+
+    "O complemento do endereço"
+    complemento: String,
+
+    "A unidade do endereço"
+    unidade: String,
+
+    "O bairro do endereço"
+    bairro: String,
+
+    "A localidade do endereço"
+    localidade: String,
+
+    "A UF (Unidade Federativa) do endereço, exemplo: RS"
+    uf: String,
+    
+    "O IBGE do endereço"
+    ibge: String,
+
+    "O gia do endereço"
+    gia: String,
+
+    "O DDD do endereço, exemplo: 51"
+    ddd: String,
+
+    "O siafi do endereço"
+    siafi: String
+}
