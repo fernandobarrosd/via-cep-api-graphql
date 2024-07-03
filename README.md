@@ -21,3 +21,7 @@ Para usar a API usando o docker você deverá seguir os seguintes passos:
 - Ter o docker instalado: https://docs.docker.com/get-docker/
 - Ter o docker-compose instalado: https://docs.docker.com/compose/install/
 - E rodar um dos seguintes comandos: ```docker-compose up -d``` ou ```docker-compose up --build```
+
+
+## Creditos
+Créditos para a API do Via CEP: https://viacep.com.br/
